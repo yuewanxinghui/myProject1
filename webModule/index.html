@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMarket</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="topic">
+        <div>
+            <ul class="fl">
+                <li><a href="javascript:;">星回1</a></li>
+                <li><a href="javascript:;">星回2</a></li>
+                <li><a href="javascript:;">星回3</a></li>
+                <li><a href="javascript:;">星回4</a></li>
+                <li><a href="javascript:;">星回5</a></li>
+            </ul>
+            <ul class="fr">
+                <li><a href="javascript:;">星回1</a></li>
+                <li><a href="javascript:;">星回2</a></li>
+                <li><a href="javascript:;">星回3</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 第二部分 -->
+    <div class="second">
+        <div class="icon"><img src="./img/2.jpg" alt=""></div>
+        <div>
+            <ul>
+                <li><a href="javascript:;">月挽星回</a></li>
+                <li><a href="javascript:;">月挽1</a></li>
+                <li><a href="javascript:;">月挽2</a></li>
+                <li><a href="javascript:;">月挽3</a></li>
+                <li><a href="javascript:;">月挽4</a></li>
+                <li><a href="javascript:;">月挽5</a></li>
+                <li><a href="javascript:;">月挽6</a></li>
+                <li><a href="javascript:;">月挽7</a></li>
+            </ul>
+        </div>
+        <div class="search"><input type="text"><span></span>
+            <div class="searchdown"></div>
+        </div>
+    </div>
+    <!-- JS搜索框聚焦和失焦 -->
+    <script>
+        $(function () {
+            $(".search input").focus(function () {
+                $(".searchdown").animate({
+                    height: "300px"
+                }, "fast").css("border-bottom","1px solid yellowgreen"); // 下拉框底部边框颜色
+
+            }).blur(function () {
+                $(".searchdown").animate({
+                    height: "0"
+                }, "fast").css("border-bottom","none");
+            })
+        });
+    </script>
+    <!-- 第三部分内容 -->
+    <div class="third">
+        <div class="shops">
+            <ul>
+                <li><a href="javascript:;">月挽1</a></li>
+                <li><a href="javascript:;">月挽2</a></li>
+                <li><a href="javascript:;">月挽3</a></li>
+                <li><a href="javascript:;">月挽4</a></li>
+                <li><a href="javascript:;">月挽5</a></li>
+                <li><a href="javascript:;">月挽6</a></li>
+                <li><a href="javascript:;">月挽7</a></li>
+            </ul>
+            <div class="shopscontent"></div>
+        </div>
+        <!-- 轮播图 -->
+        <div class="round">
+            <div class="round-img">
+                <ul>
+                    <li><a href="javascript:;"><img src="./img/1.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./img/2.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./img/3.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="./img/4.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="round-point">
+                <ul>
+                    <li><a href="javascript:;"></a></li>
+                    <li><a href="javascript:;"></a></li>
+                    <li><a href="javascript:;"></a></li>
+                    <li><a href="javascript:;"></a></li>
+                </ul>
+            </div>
+            <div class="round-left">&lt;</div>
+            <div class="round-right">&gt;</div>
+        </div>
+        <!-- 轮播JS -->
+        <script src="./js/lunbo.js"></script>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
